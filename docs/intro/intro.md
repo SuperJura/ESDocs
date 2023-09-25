@@ -1,6 +1,7 @@
 # Overview
 
 Let's discover **Escape Simulator**.
+Escape Simulator is the best room escape simulator out there!
 
 ## About the website
 
