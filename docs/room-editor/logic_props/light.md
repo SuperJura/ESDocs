@@ -20,9 +20,13 @@ To create complete darkness in your room you can turn off all the `Light` props 
 ## Properties
 
 ### :small_orange_diamond:Type
+
 <div className="highlight-div">
-Spot - emits light in a cone shape.<br>
-Directional - a light that's located infinitely far away and emits light in one direction.<br>
+
+Spot - emits light in a cone shape.
+
+Directional - a light that's located infinitely far away and emits light in one direction.
+
 Point - located at a point and emits light in all directions equally.
 </div>
 

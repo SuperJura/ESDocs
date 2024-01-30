@@ -50,9 +50,13 @@ If you're using the `Continuous` or the `Fixed` lock you can target any index, b
 
 ### :small_orange_diamond:Type
 <div className="highlight-div">
-Inplace - Props targeting the lock only change the value at that position.<br>
-Continuous - Uses any input from any lock, checking for a correct sequence.<br>
+
+Inplace - Props targeting the lock only change the value at that position.
+
+Continuous - Uses any input from any lock, checking for a correct sequence.
+
 Fixed - Like Continuous, but resets the input values to 0 when it receives 'Password' amount of inputs.
+
 </div>
 
 For the examples bellow we will use a `Lock` with 3 lock values. And when it's unlocked it will trigger an `Animation` behaviour next to the `Display`.
@@ -138,9 +142,13 @@ Locks cannot have an output of 0.
 
 ### :small_orange_diamond:Logic Type
 <div className="highlight-div">
-AND - All password values must be inputted correctly.<br>
-OR - One or more of the password values must be correct.<br>
-Parity XOR - There must be an odd number of correct values.<br>
+
+AND - All password values must be inputted correctly.  
+
+OR - One or more of the password values must be correct.
+
+Parity XOR - There must be an odd number of correct values.
+
 Exclusive XOR - There must be only one correct value.
 </div>
 

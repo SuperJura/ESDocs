@@ -13,7 +13,9 @@ The Logic prop that changes the sky around the room. You can add your own images
 ### :small_orange_diamond:Type
 
 <div className="highlight-div">
-Procedural - Generated skybox based on colors.<br>
+
+Procedural - Generated skybox based on colors.
+
 6 Sided - Created based on textures.
 </div>
 
