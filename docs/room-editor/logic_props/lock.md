@@ -50,12 +50,9 @@ If you're using the `Continuous` or the `Fixed` lock you can target any index, b
 
 ### :small_orange_diamond:Type
 <div className="highlight-div">
-
-Inplace - props targeting the lock only change the one lock value.
-
-Continuous - processes any input from any lock valuem checking for a correct sequence.
-
-Fixed - like Continuous, but resets all of the input values to 0 when it receives 'Password' amount of inputs.
+Inplace - Props targeting the lock only change the value at that position.<br>
+Continuous - Uses any input from any lock, checking for a correct sequence.<br>
+Fixed - Like Continuous, but resets the input values to 0 when it receives 'Password' amount of inputs.
 </div>
 
 For the examples bellow we will use a `Lock` with 3 lock values. And when it's unlocked it will trigger an `Animation` behaviour next to the `Display`.
@@ -141,17 +138,17 @@ Locks cannot have an output of 0.
 
 ### :small_orange_diamond:Logic Type
 <div className="highlight-div">
-
-AND - all password values must be inputted correctly.
-
-OR - one or more of the password values msut be correct.
-
-Parity XOR - there must be an odd number of correct values.
-
-Exclusive XOR - there must be only one correct value.
+AND - All password values must be inputted correctly.<br>
+OR - One or more of the password values must be correct.<br>
+Parity XOR - There must be an odd number of correct values.<br>
+Exclusive XOR - There must be only one correct value.
 </div>
 
 This determines how the lock handles input. Intended for more complex logical operation, mostly used with the `Inplace` lock type.
+
+:::tip
+For most locks, you want to use AND. The other modes are intended for setting up complex logic instead of just entering in a password.
+:::
 
 Each value in the lock can at any moment be considered as true or false, by comparing the password value with the actual inputted value at that position (for `Inplace`), e.g. a password of (1,2,3) with the input of (2,2,2) will for the purposes of the logic operations be read as (false, true, false) results.
 These true/false results and the `Logic Type` operation used will determine if the `Lock` should be locked or unlocked. In the tables below A, B and C represent the results from the three different password indexes and their result in their respective logical operation.
@@ -177,13 +174,13 @@ This means that for the `Inplace` lock at least one of the values inputted need 
 ![OR operation](./img/lock/lock_OR.gif)
 
 #### Exclusive XOR
-For the Exclusive XOR to return _true_, only one of all of the inputs needs to be _true_.
+For the Exclusive XOR to return _true_, only one of all of the inputs is _true_.
 
 ![Exclusive XOR](./img/lock/ExclusiveXOR.png)
 
 This means that for the `Inplace` lock only one of the values inputted need to match the position and the number, e.g. for the (1,2,3) password, one of the 3 possible _true_ returns from the OR operation is if the results are (false, true, false), which is the case for the inputted numbers (-,2,-).
 
-__Difference between XOR and Exclusive XOR__: OR is more permissive, returns _true_ for any _true_ result, including multiple _true_ results, e.g. OR will return true if the results are (true, true, false). Exclusive XOR returns true only for one _true_ result.
+__Difference between OR and Exclusive XOR__: OR is more permissive, returns _true_ for any _true_ result, including multiple _true_ results, e.g. OR will return true if the results are (true, true, false). Exclusive XOR returns true only for one _true_ result.
 
 __Difference between Exclusive XOR and Parity XOR__: Parity XOR is more permissive, returns true for an odd number of _true_ results, while Exclusive XOR will only return true if one result is _true_
 

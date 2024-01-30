@@ -10,6 +10,8 @@ sidebar_position: 1
 | Moving | _Hold Right Mouse Button + WASD_ | Used to control the camera position |
 | Fast moving | _Hold Right Mouse Button + WASD + Shift_ | Move at double the current speed |
 | Slow moving | _Hold Right Mouse Button + WASD + Ctrl_ | Move at half the current speed |
+| Raise camera | _Hold Right Mouse Button + E_ | Ctrl and Shift to control speed |
+| Lower camera | _Hold Right Mouse Button + Q_ | Ctrl and Shift to control speed |
 | Change camera speed | _Hold Right Mouse Button + Scroll_ | Change the saved camera speed setting |
 | Focus on an item | _F_ | Moves the camera to the selected prop |
 

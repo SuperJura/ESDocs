@@ -13,7 +13,8 @@ The Logic prop that changes the sky around the room. You can add your own images
 ### :small_orange_diamond:Type
 
 <div className="highlight-div">
-Procedural - generated skybox based on colors. 6 Sided - created based on textures.
+Procedural - Generated skybox based on colors.<br>
+6 Sided - Created based on textures.
 </div>
 
 Use your own images or just color the sky by setting the color values.
@@ -47,7 +48,7 @@ The sun is just a visual element of the skybox. It does not add any additional l
 
 When checked, the sun will be generated on top of the sky
 
-When no checked, the sun will not be shown.
+When not checked, the sun will not be shown.
 
 ### :small_orange_diamond:Atmosphere Thickness
 
@@ -55,7 +56,7 @@ When no checked, the sun will not be shown.
 The density of the atmosphere. An atmosphere of higher density absorbs more light.
 </div>
 
-Setting a higher number will make the atmosphere thicker and visually 
+Setting a higher number will make the atmosphere hazier and more opaque.
 
 ### :small_orange_diamond:Sky Tint
 
@@ -78,8 +79,6 @@ Here you can change the color of the bottom half of the skybox.
 <div className="highlight-div">
 Adjusts the sky’s exposure. This allows you to change tonal values in the skybox this Material generates. Larger values produce a more exposed, seemingly brighter, skybox. Smaller values produce a less exposed, seemingly darker, skybox.
 </div>
-
-^that
 
 ### :small_orange_diamond:Presets
 
