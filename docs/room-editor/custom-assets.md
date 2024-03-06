@@ -34,7 +34,7 @@ Ever wanted to use a timer? Don't forget to check the video embedded in the desc
 
 <div className="highlight-div">
 
-## Word Locks ~ ChazzyB
+## Word Locks ~ Tim "J"
 Assets to create a word-based lock. 
 
 [Find the locks here](http://steamcommunity.com/sharedfiles/filedetails/?id=2916590887)
