@@ -77,10 +77,18 @@ This variables are present in every call:
 * TriggerEnter
   * context ([Trigger](#trigger))
   * Holds a reference to a Trigger that has been triggered.
-
+  
 * TriggerExit
   * context ([Trigger](#trigger))
   * Holds a reference to a Trigger that has been triggered.
+
+* DialMoved
+  * context ([Dial](#dial))
+  * Holds a reference to a Dial that has been moved.
+  
+* TurnableMoved
+  * context ([Turnable](#turnable))
+  * Holds a reference to a Turnable that has been moved.
 
 * CustomPointer
   * context ([Pointer](#pointer))
@@ -228,7 +236,25 @@ In the code, you can acces all the variables of any object. Here are the variabl
 * **bool targetObject**: Does this activator change the state of the objects (enabled or disables)
 * **bool targetRenderer**: Does this activator change the state of the objects renderers (visible or invisible)
 * **bool targetCollider**:  Does this activator change the state of the objects collider (active or inactive)
-* 
+
+## Dial
+* **int currentValue** the current value of the dial. Goes from 0 - valueCount
+* **int luaLastValue** the previous value of the dial. 
+* **float currentAngle** the value expressed in angles (currentAngle = value * 360f / valueCount)
+* **float direction** The direction in which the dial rotates when manipulated.
+* **bool resetOnRelease** Should the dial be returned to original state when released?
+* **bool snapToPosition** When released, should the dial move to closest value and position?
+
+## Turnable
+* **int currentValue** the current value of the turnable. Goes from 0 - steps
+* **int luaLastValue** the previous value of the turnable.
+* **int clickDirection** The direction in which the turnable rotates when clicked.
+* **float mouseSpeedModifier** how fast should the turnable rotate? defaults to 1
+* **float vrSpeedModifier** how fast should the turnable rotate in vr? defaults to 1
+* **float currentRotation** the value expressed in angles (currentRotation = value * 360f / steps)
+* **Quaternion ogirinalRotation** the rotation of the turnable on the start of the room
+
+
 # More information
 
 ## Custom assets and tutorials
