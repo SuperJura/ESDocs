@@ -7,22 +7,26 @@ Escape Simulator has a rich past in terms of updates including new rooms, new fe
 Here is a full list of major patches.
 
 <VerticalTimeline lineColor='var(--ifm-color-primary)'>
-    <PatchHistoryElement title='Among Us DLC' subtitle='DLC' blogUrl='/blog/2023/12/15/among-us' dateString='December 15, 2023'/>
-    <PatchHistoryElement title='Portal DLC' subtitle='DLC' blogUrl='/blog/2023/09/07/portal' dateString='September 7, 2023'/>
-    <PatchHistoryElement title='Versus Mode' subtitle='Alternative to coop' blogUrl='/blog/2023/08/01/versus-update' dateString='August 1, 2023'/>
-    <PatchHistoryElement title='Treasure Island' subtitle='New Room' blogUrl='/blog/2023/06/22/treasure-island-update' dateString='June 22, 2023'/>
-    <PatchHistoryElement title="Leonardo's Workshop Room" subtitle='New Room' blogUrl='/blog/2023/03/08/leonardos-workshop-update' dateString='March 8, 2023'/>
-    <PatchHistoryElement title='Wild West + Big Bug fix update' subtitle='DLC' blogUrl='/blog/2022/12/08/wild-west-dlc' dateString='December 8, 2022'/>
-    <PatchHistoryElement title='Halloween update' subtitle='New Room' blogUrl='/blog/2022/10/25/halloween-update' dateString='October 25, 2022'/>
-    <PatchHistoryElement title="70's Room" subtitle='New Room' blogUrl='/blog/2022/09/22/seventies-room' dateString='September 22, 2022'/>
-    <PatchHistoryElement title='Room Editor 2.0' subtitle='Room Editor Upgrade' blogUrl='/blog/2022/06/06/room-editor-two' dateString='June 6, 2022'/>
-    <PatchHistoryElement title='Steampunk DLC' subtitle='DLC' blogUrl='/blog/2022/06/06/steampunk-dlc' dateString='June 6, 2022'/>
-    <PatchHistoryElement title='One million players update & Cats in time Room' subtitle='New Room' blogUrl='/blog/2022/05/02/milion-players-cats' dateString='May 2, 2022'/>
-    <PatchHistoryElement title='HyperX update' subtitle='Room Editor Upgrade' blogUrl='/blog/2022/04/07/hyperx' dateString='April 7, 2022'/>
-    <PatchHistoryElement title='Language pack update' subtitle='Game Upgrade' blogUrl='/blog/2022/03/22/languages' dateString='March 22, 2022'/>
-    <PatchHistoryElement title='Big editor update: alchemist prop pack & room editor particles' subtitle='Room Editor Upgrade' blogUrl='/blog/2022/02/18/room-editor-packs' dateString='February 18, 2022'/>
-    <PatchHistoryElement title="Santa's workshop" subtitle='New Room' blogUrl='/blog/2021/12/29/santa' dateString='December 29, 2021'/>
-    <PatchHistoryElement title="Omega room" subtitle='New Rooms' blogUrl='/blog/2021/10/29/omega' dateString='October 29, 2021 - December 9, 2021'/>
-    <PatchHistoryElement title="Escape Simulator is out!" subtitle='Game release' dateString='October 19, 2021'/>
+    <PatchHistoryElement title='Talos DLC' subtitle='Free DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/4511009823953264596' dateString='October 22, 2024'/>
+    <PatchHistoryElement title='Meta Quest Release' subtitle='Game release' blogUrl='https://www.meta.com/experiences/escape-simulator/6960826027306377/' dateString='October 10, 2024'/>
+    <PatchHistoryElement title='PowerWash DLC' subtitle='Free DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/4199124769097719759' dateString='June 20, 2024'/>
+    <PatchHistoryElement title='VR Mode' subtitle='Game mode' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/4209250258906013197' dateString='April 2, 2024'/>
+    <PatchHistoryElement title='Magic DLC' subtitle='DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/7154600711487590880' dateString='February 22, 2024'/>
+    <PatchHistoryElement title='Among Us DLC' subtitle='Free DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3873722126473027131' dateString='December 15, 2023'/>
+    <PatchHistoryElement title='Portal DLC' subtitle='Free DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3680057643260528730' dateString='September 7, 2023'/>
+    <PatchHistoryElement title='Versus Mode' subtitle='Alternative to coop' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/6190810896115318984' dateString='August 1, 2023'/>
+    <PatchHistoryElement title='Treasure Island' subtitle='New Room' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3669918201463258237' dateString='June 22, 2023'/>
+    <PatchHistoryElement title="Leonardo's Workshop Room" subtitle='New Room' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3657523159377102725' dateString='March 8, 2023'/>
+    <PatchHistoryElement title='Wild West + Big Bug fix update' subtitle='DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3634998005236427606' dateString='December 8, 2022'/>
+    <PatchHistoryElement title='Halloween update' subtitle='New Room' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3412065563214671760' dateString='October 25, 2022'/>
+    <PatchHistoryElement title="70's Room" subtitle='New Room' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3274703239541803563' dateString='September 22, 2022'/>
+    <PatchHistoryElement title='Room Editor 2.0' subtitle='Room Editor Upgrade' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3367016884706631934' dateString='June 6, 2022'/>
+    <PatchHistoryElement title='Steampunk DLC' subtitle='DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3367016884694436693' dateString='June 6, 2022'/>
+    <PatchHistoryElement title='One million players update & Cats in time Room' subtitle='New Room' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3201506425221997644' dateString='May 2, 2022'/>
+    <PatchHistoryElement title='HyperX update' subtitle='Room Editor Upgrade' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3111431264448532985' dateString='April 7, 2022'/>
+    <PatchHistoryElement title='Language pack update' subtitle='Game Upgrade' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3117060130375057789' dateString='March 22, 2022'/>
+    <PatchHistoryElement title='Big editor update: alchemist prop pack & room editor particles' subtitle='Room Editor Upgrade' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3117057592333864637' dateString='February 18, 2022'/>
+    <PatchHistoryElement title="Santa's workshop" subtitle='New Room' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/5834974358172494716' dateString='December 29, 2021'/>
+    <PatchHistoryElement title="Omega room" subtitle='New Rooms' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/3126058540572736914' dateString='October 29, 2021 - December 9, 2021'/>
+    <PatchHistoryElement title="Escape Simulator is out!" subtitle='Game release' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/4309374272887133938'  dateString='October 19, 2021'/>
 </VerticalTimeline>
-

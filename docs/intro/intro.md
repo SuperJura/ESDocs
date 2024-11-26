@@ -20,7 +20,7 @@ From Space to Victorian era, you will find your cup of tea.
 
 ### 3 Full Fledged DLCs
 
-Explore additional 12 rooms set on a steampunk airship the wild wild west and in magical world.
+Explore additional 16 rooms created by Pine team.
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/1942100/Escape_Simulator_Steampunk_DLC&utm_campaign=ESDocs">
         <img src={require('./img/SteampunkDLC.jpg').default}/>
@@ -38,10 +38,16 @@ Explore additional 12 rooms set on a steampunk airship the wild wild west and in
         <img src={require('./img/magicDLC.jpg').default}/>
     </a>
 </div>
+
+<div className="article-card article-card-big" style={{float:'left'}}>
+    <a href="https://store.steampowered.com/app/2419810/Escape_Simulator_Mayan_DLC/&utm_campaign=ESDocs">
+        <img src={require('./img/MayanDLC.jpg').default}/>
+    </a>
+</div>
 <div style={{clear:'left'}}/>
 
 ### Free Collab DLCs
-Explore the detailed environment of the mysterious subdivision of Aperture Science Laboratories and the secrets of Mini Skeld!
+Explore the detailed environment of these collaboration DLCs.
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/2000170/Escape_Simulator_Portal_Escape_Chamber&utm_campaign=ESDocs">
         <img src={require('./img/PortalDLC.jpg').default}/>
@@ -50,6 +56,16 @@ Explore the detailed environment of the mysterious subdivision of Aperture Scien
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/2644870/Escape_Simulator_Among_Us_DLC/&utm_campaign=ESDocs">
         <img src={require('./img/AmongUsDLC.jpg').default}/>
+    </a>
+</div>
+<div className="article-card article-card-big" style={{float:'left'}}>
+    <a href="https://store.steampowered.com/app/2644870/Escape_Simulator_PowerWash_DLC/&utm_campaign=ESDocs">
+        <img src={require('./img/PowerWashDLC.jpg').default}/>
+    </a>
+</div>
+<div className="article-card article-card-big" style={{float:'left'}}>
+    <a href="https://store.steampowered.com/app/2644870/Escape_Simulator_The_Talos_Principle_DLC/&utm_campaign=ESDocs">
+        <img src={require('./img/TalosDLC.jpg').default}/>
     </a>
 </div>
 <div style={{clear:'left'}}/>

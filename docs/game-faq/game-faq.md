@@ -31,8 +31,9 @@ Find the answers to some of the most common questions and problems here.
 
 <details><summary><h4>Additional Optimizations</h4></summary>
 
- - Simulates a low performance device
- - Gives you all the small optimizations across the game:
+Simulates a low performance device.
+
+Gives you all the small optimizations across the game:
  - Removes particles when interacting with specific objects (like on The Top with rotating spheres or thunder in Brain Checkup)
  - Decreasing the detail level of Water system on the level if there is one
  - Replacing some high-detail objects with low-detail version of them (like a toy house on The Attic)

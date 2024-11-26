@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Escape Simulator',
-  tagline: 'Now with Versus mode',
+  tagline: 'Now with VR mode',
   favicon: 'img/ESIcon.png',
 
   // Set the production url of your site here
@@ -22,7 +22,6 @@ const config = {
   projectName: 'ESDocs', // Usually your repo name.
   trailingSlash: false,
   
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -70,7 +69,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Escape Simulator (Beta)',
+        title: 'Escape Simulator',
         logo: {
           alt: 'Escape Simulator Logo',
           src: 'img/ESIcon.png',
@@ -88,10 +87,14 @@ const config = {
             position: 'left',
             label: 'Room Editor',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://store.steampowered.com/app/1435790/Escape_Simulator/',
-            label: 'Get the game',
+            label: 'Steam',
+            position: 'right',
+          },
+          {
+            href: 'https://www.meta.com/experiences/escape-simulator/6960826027306377/',
+            label: 'Meta',
             position: 'right',
           },
         ],

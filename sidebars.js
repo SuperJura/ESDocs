@@ -6,6 +6,7 @@ const gameSidebar = [
   {
     type: 'category', label: 'Stream VODs', items:
       [
+        'stream-vods/build-a-room-6-winners',
         'stream-vods/build-a-room-5-winners',
         'stream-vods/build-a-room-4-winners',
         'stream-vods/versus-update-q-a',
