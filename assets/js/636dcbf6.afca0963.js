@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkes_docs=self.webpackChunkes_docs||[]).push([[6725],{93872:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/dlc","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

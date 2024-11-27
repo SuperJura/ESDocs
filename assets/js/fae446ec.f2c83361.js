@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkes_docs=self.webpackChunkes_docs||[]).push([[5607],{90308:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/versus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
