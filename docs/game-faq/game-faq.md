@@ -41,5 +41,8 @@ Gives you all the small optimizations across the game:
  - Bigger thresholds when calculating should an object be moved in coop syncing.
  - Enabled distance-based occlusion on custom levels. The level will have object popping.
  
+
+Note: If you're in-game and toggle this option, you'll need to restart the level to see the changes take effect.
+ 
 </details>
 
