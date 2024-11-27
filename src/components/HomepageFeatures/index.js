@@ -42,29 +42,6 @@ function HeroSmall({ image, title, url }) {
 
 
 export function HomepageHeros() {
-  const [imageUrl, setImageUrl] = useState("");
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const urlMetadata = require('url-metadata');
-    const lastBlogPost = recentPosts.items[0]; // Define lastBlogPost here
-
-    urlMetadata(lastBlogPost.permalink)
-      .then((metadata) => {
-        var url = metadata.image.replace(/([^:]\/)\/+/g, '$1');
-        const urlObject = new URL(url);
-        setImageUrl(urlObject.pathname);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.log(err);
-        setLoading(false);
-      });
-  }, []);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  } else {
     const lastBlogPost = recentPosts.items[0]; // Define lastBlogPost here as well
     return (
       <>
@@ -73,7 +50,6 @@ export function HomepageHeros() {
             {HeroList.map((props, idx) => (
               <Hero key={idx} {...props} />
             ))}
-            <Hero image={imageUrl} title={"Blog: " + lastBlogPost.title} url={lastBlogPost.permalink} />
           </div>
         </section>
         <section className={styles.features}>
@@ -86,5 +62,4 @@ export function HomepageHeros() {
         </section>
       </>
     );
-  }
 }

@@ -49,8 +49,9 @@
 }
 
 .banner{
-  background-color: #962625;
+  background: var(--highlight-box-color);
 }
+ 
 
 .dateLabel {
   color: var(--ifm-color-primary)

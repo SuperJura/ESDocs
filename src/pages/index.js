@@ -10,7 +10,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero banner', styles.heroBanner)}>
       <div className="container">
-        <img src='./img/logo.png' height={200} />
+        <img src='./img/logo.png' height={100} />
       </div>
     </header>
   );
