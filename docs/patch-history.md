@@ -7,6 +7,7 @@ Escape Simulator has a rich past in terms of updates including new rooms, new fe
 Here is a full list of major patches.
 
 <VerticalTimeline lineColor='var(--ifm-color-primary)'>
+    <PatchHistoryElement title='Mayan DLC' subtitle='DLC' blogUrl='https://store.steampowered.com/news/app/1435790/view/4451339669989228553' dateString='December 5, 2024'/>
     <PatchHistoryElement title='Talos DLC' subtitle='Free DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/4511009823953264596' dateString='October 22, 2024'/>
     <PatchHistoryElement title='Meta Quest Release' subtitle='Game release' blogUrl='https://www.meta.com/experiences/escape-simulator/6960826027306377/' dateString='October 10, 2024'/>
     <PatchHistoryElement title='PowerWash DLC' subtitle='Free DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/4199124769097719759' dateString='June 20, 2024'/>
