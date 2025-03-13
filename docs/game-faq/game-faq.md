@@ -26,23 +26,3 @@ Find the answers to some of the most common questions and problems here.
  - Verify game files on Steam (right click the game in the Steam library > Properties > Local files > Verify...)
 
 </details>
-
-## Options
-
-<details><summary><h4>Additional Optimizations</h4></summary>
-
-Simulates a low performance device.
-
-Gives you all the small optimizations across the game:
- - Removes particles when interacting with specific objects (like on The Top with rotating spheres or thunder in Brain Checkup)
- - Decreasing the detail level of Water system on the level if there is one
- - Replacing some high-detail objects with low-detail version of them (like a toy house on The Attic)
- - Removes some objects from the level that can cause bad performance
- - Bigger thresholds when calculating should an object be moved in coop syncing.
- - Enabled distance-based occlusion on custom levels. The level will have object popping.
- 
-
-Note: If you're in-game and toggle this option, you'll need to restart the level to see the changes take effect.
- 
-</details>
-
