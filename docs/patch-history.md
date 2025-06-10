@@ -6,7 +6,9 @@ import {PatchHistoryElement} from './patch-history-element';
 Escape Simulator has a rich past in terms of updates including new rooms, new features, bug fixes and DLCs.
 Here is a full list of major patches.
 
+
 <VerticalTimeline lineColor='var(--ifm-color-primary)'>
+    <PatchHistoryElement title='Detective' subtitle='New Room' blogUrl='https://store.steampowered.com/news/app/1435790/view/505077615531394446?l' dateString='May 29, 2025'/>
     <PatchHistoryElement title='Talos DLC' subtitle='Free DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/4511009823953264596' dateString='October 22, 2024'/>
     <PatchHistoryElement title='Meta Quest Release' subtitle='Game release' blogUrl='https://www.meta.com/experiences/escape-simulator/6960826027306377/' dateString='October 10, 2024'/>
     <PatchHistoryElement title='PowerWash DLC' subtitle='Free DLC' blogUrl='https://steamcommunity.com/games/1435790/announcements/detail/4199124769097719759' dateString='June 20, 2024'/>

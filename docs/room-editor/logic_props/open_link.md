@@ -23,7 +23,7 @@ Changes the website that the link will go to.
 :::tip  **Allowed Links**
   - steamcommunity.com/
   - store.steampowered.com/
-  - en.wikipedia.org/
+  - en.wikipedia.org/ (or any other language on wiki)
 :::
 
 

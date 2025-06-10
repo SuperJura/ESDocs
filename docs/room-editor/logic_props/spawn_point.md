@@ -13,3 +13,10 @@ You can also separate players into 2 or more groups by placing 2 or more Spawn P
 :::note
 If no spawn points exist in the room the players will spawn on position 0, 0, 0.
 :::
+
+### :small_orange_diamond:Player speed
+<div className="highlight-div">
+Player Speed when the player is moved to this point. To reset it, teleport the player to another point. This represents Walking speed. Running speed is 1.5x faster than Walking speed.
+</div>
+
+You can use Player Speed to lock him in place by setting 0 and make him really fast by putting a big value.

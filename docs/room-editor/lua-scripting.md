@@ -187,6 +187,9 @@ Functions of api object:
 
 * bool contains(Component[] array, Component lookup)
   * Is the lookup component present in the given array
+  
+* hasAuthority(GameObject)
+  * Does the local player have authority of the given object. If true, it means the local player was last to interact with the object and now "owns" it. Underlying systems like position syncing are using this. You can use this to check who is in control of what object. On start, Host is the owner of everything. here is a small test room that we made https://steamcommunity.com/sharedfiles/filedetails/?id=3480872042 
 
 # Types
 In the code, you can acces all the variables of any object. Here are the variables of exposed types:

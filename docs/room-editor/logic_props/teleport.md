@@ -24,6 +24,13 @@ When checked, teleported players will face the direction this teleport is pointi
 
 You can use this to force a player to look in a certain direction.
 
+### :small_orange_diamond:Player speed
+<div className="highlight-div">
+Player Speed when the player is moved to this point. To reset it, teleport the player to another point. This represents Walking speed. Running speed is 1.5x faster than Walking speed.
+</div>
+
+You can use Player Speed to lock him in place by setting 0 and make him really fast by putting a big value.
+
 :::tip
 To make teleportation more smooth, the teleporter can be set a bit deeper into the ground.
 :::tip
