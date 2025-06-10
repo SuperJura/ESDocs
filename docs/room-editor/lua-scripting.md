@@ -255,10 +255,14 @@ In the code, you can acces all the variables of any object. Here are the variabl
 * **float mouseSpeedModifier** how fast should the turnable rotate? defaults to 1
 * **float vrSpeedModifier** how fast should the turnable rotate in vr? defaults to 1
 * **float currentRotation** the value expressed in angles (currentRotation = value * 360f / steps)
-* **Quaternion ogirinalRotation** the rotation of the turnable on the start of the room
+* **Quaternion originalRotation** the rotation of the turnable on the start of the room
 
 
 # More information
 
 ## Custom assets and tutorials
 You can find community-developed assets and tutorials in the "Custom Assets" tab. If you still need help, check out the lua-scripting channel on our Discord!
+
+:::tip
+[You can find a community managed Lua book with all the details here](https://docs.google.com/document/d/1Bt1DkU_2ipJCE7LudK8SMh4VaEueKBecT4gp3vljJOM/edit?tab=t.0)
+:::tip
